@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+  background-color: #323c41;
+}
+
+.header {
+  color: #d3c6aa;
+  font-family: 'Work Sans'
+  text-align: center;
+    border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b3339;
+  border-radius: 5px;
+}
+
+li {
+	float: left;
+	padding: 7px 6px;
+}
+
+li a {
+  display: block;
+  color: #d3c6aa;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #3a454a;
+}
+
+li a:hover {
+  background-color: #3a454a;
+  color: #7fbbb3;
+}
+
+.pgraph {
+  color: #d3c6aa;
+  font-family: 'Work Sans'
+  text-align: center;
+}
+
+.image {
+	border-radius: 25px;
+}
+
+/* unvisited link */
+a:link {
+  color: #e67e80;
+}
+
+/* visited link */
+a:visited {
+  color: #a7c080;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d699b6;
+}
+
+/* selected link */
+a:active {
+  color: #7fbbb3;
+}
