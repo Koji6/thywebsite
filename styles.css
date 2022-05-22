@@ -29,6 +29,7 @@ li {
 }
 
 li a {
+  font-family: 'Work Sans';
   display: block;
   color: #d3c6aa;
   padding: 8px 14px;
